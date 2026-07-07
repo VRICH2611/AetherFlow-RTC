@@ -1,0 +1,24 @@
+# Ignore build directories
+build-*/
+debug/
+release/
+*.Debug
+*.Release
+
+# Ignore compiled objects and executables
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Ignore Qt Creator user-specific files
+*.pro.user
+*.pro.user.*
+
+# Ignore temporary Excel exports and real calibration matrices
+*.xlsx
+calibration_matrix.txt
